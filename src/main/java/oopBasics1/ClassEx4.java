@@ -12,7 +12,7 @@ public class ClassEx4 {
     // The following method supports variable-length arguments
 
     public int sum(int... vararg) {
-        System.out.println("You have passed " + vararg.length + "arguments now.");
+        System.out.println("You have passed " + vararg.length + " arguments now.");
 
 //        formatf() and printf() are two examples of vararg methods in java library
 //        System.out.print(String.format("%s, you have passed %d arguments now.", "Dear reader",vararg.length));
