@@ -14,7 +14,6 @@ class ClassEx1 {
 
     // In the following case, it will be initialized with default value 0.
     // public int myInt;
-
     public static void main(String[] args) {
         System.out.println("***Demonstration-1. A class demo with 2 objects ***");
         ClassEx1 obA = new ClassEx1();

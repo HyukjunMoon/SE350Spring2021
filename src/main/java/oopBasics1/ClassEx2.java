@@ -3,6 +3,7 @@
 //public class ClassEx2 {
 //
 //    int i;
+//
 //    public ClassEx2(int i) {
 //        this.i = i;
 //    }

@@ -7,8 +7,6 @@
 
 package oopBasics1;
 
-import oopPrinciples.inheritance.Employee;
-
 public class ClassEx4 {
 
     // The following method supports variable-length arguments
