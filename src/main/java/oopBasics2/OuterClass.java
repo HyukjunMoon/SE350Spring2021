@@ -35,7 +35,7 @@ class DemoNestedClass {
         //Calling the inner class method through an outer class method
         System.out.println("**Approach 1: Calling the inner class method through an outer class object.**");
         outer.invokeInner();
-        // InnerClass inner=new InnerClass();//Error
+//        InnerClass inner=new InnerClass();//Error
         OuterClass.InnerClass inner = outer.new InnerClass();// Ok
         //Invoking the inner class method through an inner class object.
         System.out.println("Approach 2: Invoking the inner class method through an inner class object.");

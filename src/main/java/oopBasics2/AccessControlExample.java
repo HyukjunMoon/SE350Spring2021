@@ -31,9 +31,9 @@ class DemoAccessControl {
         AccessControlExample sampleOb = new AccessControlExample();
         System.out.println("The pubInt=" + sampleOb.publicInt);// 1
         sampleOb.showPublicMethod();
-//      Compile-time error
+//      //Compile-time error
 //      System.out.println(" The priInt="+ sampleOb.privateInt);
-//      Compile-time error
+//      //Compile-time error
 //      sampleOb.showPrivateMethod() ;
     }
 }
