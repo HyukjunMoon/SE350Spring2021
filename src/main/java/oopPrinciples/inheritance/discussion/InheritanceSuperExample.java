@@ -13,6 +13,7 @@ public class InheritanceSuperExample {}
 class ParentCls {
     private int a;
     private int b;
+
     ParentCls(int a, int b) {
         System.out.println("I am in parent constructor.");
         System.out.println("Before setting,a="+ this.a);
