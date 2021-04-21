@@ -21,6 +21,7 @@ abstract class AbstractClass {
     }
 }
 class CompleteClass extends AbstractClass {
+
     @Override
     public void showMe() {
         System.out.println("I'm 'completed/implemented version of showMe() in CompleteClass.");

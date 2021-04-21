@@ -20,6 +20,7 @@ interface InterfaceBB {
 interface InterfaceCC extends InterfaceAA, InterfaceBB {
     void showInterfaceCCMethod();
 }
+
 class MySampleClass implements InterfaceCC {
 // Now MySampleClass needs to implement methods from InterfaceAA,InterfaceBB, and InterfaceCC
 

@@ -23,12 +23,14 @@ abstract class MyClass implements MyInterface
     }
 // public abstract void show2();
 }
+
 class MySubClass extends MyClass
 {
     @Override
     public void show2() {
         System.out.println("MySubClass is implementing the interface method show2().");
     }
+
 }
 class DemoInterfaceAbstract {
     public static void main(String[] args) {
