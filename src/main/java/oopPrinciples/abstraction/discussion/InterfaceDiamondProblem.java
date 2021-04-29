@@ -34,8 +34,8 @@ class MyNewClass implements DefaultInterfaceA, DefaultInterfaceB {
         System.out.println("MyNewClass must implement this method.");
         // How to call default method in our interfaces:
         // Calling default method of DefaultInterface11A and DefaultInterface11B
-//        DefaultInterfaceA.super.myDefaultMethod();
-//        DefaultInterfaceB.super.myDefaultMethod();
+        DefaultInterfaceA.super.myDefaultMethod();
+        DefaultInterfaceB.super.myDefaultMethod();
     }
 }
 class DemoAvoidDiamondProblem {
