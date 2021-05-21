@@ -10,10 +10,12 @@ package DesignPatterns.ChainOfResponsibility.EmailForwardingExample;
 public class FanHandler implements Handler {
 
     private Handler chain;
+
     @Override
     public void setNextChain(Handler nextChain) {
         this.chain=nextChain;
     }
+
     @Override
     public void forwardMail(Mail mailObj) {
         /*

@@ -10,8 +10,8 @@ package DesignPatterns.ChainOfResponsibility.EmailForwardingExample;
 public class NewLocHandler implements Handler {
 
     private Handler chain;
-    @Override
 
+    @Override
     public void setNextChain(Handler nextChain) {
         this.chain=nextChain;
     }

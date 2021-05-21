@@ -10,6 +10,7 @@ package DesignPatterns.ChainOfResponsibility.EmailForwardingExample;
 public class SpamHandler implements Handler {
 
     private Handler chain;
+
     @Override
     public void setNextChain(Handler nextChain) {
         this.chain=nextChain;
